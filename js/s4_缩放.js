@@ -3,6 +3,12 @@
  */
 
 function suoFang(){
+    
+    
+    alert("qyeiwjtrieotrfjeitfj");
+    
+    
+    
     var section = document.getElementById("s4");
     //var hotePics = section.getElementsByClassName('ih-fold-wrap');
     var hoteUl = section.getElementsByClassName('s4Pics')[0];
