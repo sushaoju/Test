@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../css/top+s1.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/common.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/特价+度假+门票.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/酒店.css" type="text/css"/>
+    <link rel="stylesheet" href="../css/s5+footer.css" type="text/css"/>
+
+
+    <script src="../js/main.js" type="text/javascript"></script>
+    <script src="../js/s1_轮播.js" type="text/javascript"></script>
+    <script src="../js/s1_tab页切换.js" type="text/javascript"></script>
+    <script src="../js/s4_缩放.js" type="text/javascript"></script>
+    <script src="../js/度假轮播.js" type="text/javascript"></script>
+
+    <title>搜狗旅游首页</title>
+</head>
+<body>
+
+<header class="head">
+    <div class="inner">
+        <div class="advert">
+            <a href="#">
+                <img src="../img/top_1.png" alt="周末"/>
+            </a>
+        </div>
+        <div class="top_left">
+            <div class="n_top">
+                <div class="site_logo">
+                    <a href="#"><img src="../img/go_logo.jpg" alt="logo"/></a>
+                </div>
+                <div class="bar"></div>
+            </div>
+            <div class="n_bottom">
+                <div class="list">
+                    <a href="#" class="ce">
+                        <span class="home">
+                            <i class="icon_pub icon"></i>
+                            <strong>首页</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="plane">
+                            <i class="icon_pub icon"></i>
+                            <strong>机票</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="hotel">
+                            <i class="icon_pub icon"></i>
+                            <strong>酒店</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="holiday">
+                            <i class="icon_pub icon"></i>
+                            <strong>度假</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="special">
+                            <i class="icon_pub icon"></i>
+                            <strong>限时特价</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="ticket">
+                            <i class="icon_pub icon"></i>
+                            <strong>门票</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="train">
+                            <i class="icon_pub icon"></i>
+                            <strong>火车票票</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="bus">
+                            <i class="icon_pub icon"></i>
+                            <strong>汽车票</strong>
+                        </span>
+                    </a>
+                    <a href="#" class="ce">
+                         <span class="guide">
+                            <i class="icon_pub icon"></i>
+                            <strong>攻略</strong>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section id="home-banner">
+    <!--轮播-->
+    <div id="inner" class="clear"><!‐‐ 所有图片并排的块 ‐‐>
+        <a href="#"><img src="../img/s1_bg1.png" alt=""></a>
+        <a href="#"><img src="../img/s1_bg2.png" alt=""></a>
+        <a href="#"><img src="../img/s1_bg3.jpg" alt=""></a>
+        <a href="#"><img src="../img/s1_bg1.png" alt=""></a>
+    </div>
+
+    <div class="paganation" id="paganation"><!‐‐ 页面按钮区域 ‐‐>
+        <span class ="selected">1</span>
+        <span>2</span>
+        <span>3</span>
+            </div>
+
+    <div id="left" class="arrow"><span><</span></div><!‐‐ 向左切换按钮 ‐‐>
+    <div id="right" class="arrow"><span>></span></div><!‐‐ 向右切换按钮 ‐‐>
+
+
+    <!--cover-->
+    <div class="home-search">
+        <div class="search-wrap">
+            <div class="hs-tab-wrap">
+
+                <!--左侧搜索-->
+                <div pbflag="左侧搜索">
+                    <ul class="hs-tab-nav">
+                        <li class="tab-nav tnCur"><a href="#">机票</a></li>
+                        <li class="tab-nav"><a href="#">酒店</a></li>
+                        <li class="tab-nav"><a href="#">度假</a></li>
+                        <li class="tab-nav"><a href="#">特价</a></li>
+                        <li class="tab-nav"><a href="#">门票</a></li>
+                        <li><a href="#">火车票</a></li>
+                    </ul>
+                </div>
+
+                <!--右侧tab页-->
+                <div id="divPlane" class="hs-tab-cont tabCont" style="display: block" pbflag="机票搜索区">
+                    <div class="htc-cnt">
+                        <ul class="sub-hs-tab-nav shtn-a">
+                            <li id="tabDome" class="a1 in-tab-nav stnCur">
+                                <a href="#">国内机票</a>
+                            </li>
+                            <li id="tabTejia" class="a3 in-tab-nav">
+                                <a href="#">特价机票 <i class="ind-icon icon"></i></a>
+                            </li>
+                            <li class="a2 in-tab-nav">
+                                <a href="#">国际.港澳台机票</a>
+                            </li>
+                        </ul>
+                        <!--机票切换的内容-->
+                        <div id="tabDomeInput" pbflag="国内机票" class="sub-hs-tab-cont" style="display: block">
+                            <div class="flt-way-btn">
+                                <a href="#" id="btnOneWay" class="btn">
+                                    <i class="ind-icon icon"></i>单程
+                                </a>
+                                <a href="#" id="btnRound" class="btn fwbCur">
+                                    <i class="ind-icon icon"></i>往返
+                                </a>
+                            </div>
+                            <form action="#" class="form_plane_1 hs-input-form" id="0index_plane_search">
+                                <ul class="hs-inpt-list">
+                                    <li class="hil-a">
+                                        <label id="pCityDomeForm" class="tit">出发城市</label>
+                                        <div class="input-w input_txt">
+                                            <div class="input">
+                                                <input type="text" id="input_form" class="plane_index_1" placeholder="北京"/>
+                                                <i class="ind-icon icon"></i>
+                                            </div>
+                                            <a href="#" id="swap_city" class="ind-icon changeicon" title="互换出发到达城市"></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label id="pCityDomeTo" class="tit">到达城市</label>
+                                        <div class="input-w input_txt HoverAndFBClass">
+                                            <div class="input">
+                                             <input type="text" id="input_to" class="plane_index_2" placeholder="上海"/>
+                                             <i class="ind-icon icon"></i>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                <ul id="ulDate" class="hs-inpt-list hil-next">
+                                    <li class="hil-a">
+                                        <label class="tit">出发日期</label>
+                                        <div class="input-w input_date">
+                                            <div class="input plane_inner_cal">
+                                                <input type="text" id="planestartdate" class="input_tStart input_txt input_date plane_inner_cal_start"
+                                                        placeholder="2016-09-09" />
+                                                <i class="ind-icon icon i-inp-date"></i>
+                                                <span class="day intStartName plane_inner_cal_start_info" id="day intStartName plane_inner_cal_start_info">明天</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li id="liBack">
+                                        <label id="planebackdate" class="tit">返程日期</label>
+                                        <div class="input-w input_date">
+                                            <div class="input plane_inner_cal">
+                                                <input type="text" id="planendate" class="input_tBack input_txt plane_inner_cal_back"
+                                                        placeholder="2016-09-12" />
+                                                <i class="ind-icon icon i-inp-date"></i>
+                                                <span class="day intBackName plane_inner_cal_back_info" id="tBackName">周一</span>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                            <div class="hs-search-btn">
+                                <a href="#" class="tx" title="中秋国庆，机票1折啦>>">中秋国庆，机票1折啦>></a>
+                                <a href="#" class="btn" id="search">搜&nbsp;索</a>
+                            </div>
+                        </div>
+                        <div id="tabTejiaInput" pbflag="特价机票" class="sub-hs-tab-cont" style="display: none">
+                            <div class="sht-pop-tx">
+                                <a href="#" class="shtp-tx">
+                                    <i class="ind-icon icon i-pencil"></i>国内特价航线
+                                </a>
+                            </div>
+                            <form action="#" class="form_plane_3 hs-input-form" id="index_plane_search">
+                                <ul class="hs-inpt-list">
+                                    <li class="hil-a">
+                                        <label id="pCityTejiaForm" class="tit">出发城市</label>
+                                        <div class="input-w input_txt">
+                                            <div class="input">
+                                                <input type="text" id="input_form" class="plane_index_5" placeholder="城市名(可不填)"/>
+                                                <i class="ind-icon icon"></i>
+                                            </div>
+                                            <a href="#" id="swap_city" class="ind-icon changeicon" title="互换出发到达城市"></a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label id="pCityTejiaTo" class="tit">到达城市</label>
+                                        <div class="input-w input_txt HoverAndFBClass">
+                                            <div class="input">
+                                                <input type="text" id="input_to" class="plane_index_2" placeholder="城市名(可不填)"/>
+                                                <i class="ind-icon icon"></i>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                <ul class="hs-inpt-list hil-next">
+                                    <li class="hil-a">
+                                        <label class="tit" id="planestartdate">出发日期</label>
+                                        <div class="input-w input_date">
+                                            <div class="input plane_inner_cal">
+                                                <input type="text" id="tejia_date" class="input_tStart plane_tejia_cal_start"
+                                                       value="2016-09-09" readonly/>
+                                                <i class="ind-icon icon i-inp-date"></i>
+                                                <span class="day intStartName plane_inner_cal_start_info" id="tStartName">今天</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </form>
+                            <div class="hs-search-btn">
+                                <a href="#" class="tx" title="中秋国庆，机票1折啦>>">中秋国庆，机票1折啦>></a>
+                                <a href="#" class="btn" id="search">搜&nbsp;索</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="htc-foot">
+                        <div class="hc c1">
+                            <i class="ind-icon icon"></i>
+                            100%航班认证
+                        </div>
+                        <div class="hc c2">
+                            <i class="ind-icon icon"></i>
+                            100%出票保证
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="divHotel" class="hs-tab-cont" style="display: none" pbflag="酒店搜索区"></div>
+                <div id="divHoliday" class="hs-tab-cont" style="display: none" pbflag="度假搜索区"></div>
+                <div id="divTejia" class="hs-tab-cont" style="display: none" pbflag="特价搜索区"></div>
+                <div id="divTicket" class="hs-tab-cont" style="display: none" pbflag="门票搜索区"></div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="s2">
+    <div class="ind-tit">
+        <div class="tit">
+            <i class="ind-icon icon"></i>
+            <a href="#">限时特价</a>
+        </div>
+        <div class="it-bg"></div>
+    </div>
+    <div class="sel-dep">
+        <a href="#" class="btn">
+            <span class="n">北京、天津</span>
+            <span class="t">出发</span>
+            <i class="ind-icon icon i-drop"></i>
+        </a>
+        <div class="sd-list" pbflag="特价区弹框"></div>
+        <a href="#" class="im-pub-more">更多精选特价<em>></em></a>
+    </div>
+    <!--特价区-产品-->
+    <div class="wrapper tejia_pro">
+        <div class="im-left">
+            <ul class="is-list-a">
+                <li>
+                    <a href="#" class="pic" title="埃及全景8日游">
+                        <img src="../img/aiji.jpg" alt=""/>
+                        <span class="tag">埃及</span>
+                    </a>
+                    <a href="#" class="info" title="埃及全景8日游">
+                        <div class="time">
+                            <p class="p1">距离抢购结束还有</p>
+                            <p class="p2 Itime">
+                                <span>14天18时27分9秒</span>
+                            </p>
+                        </div>
+                        <div class="iftx">
+                            <p> < 跟团游 >埃及全景8日游 </p>
+                        </div>
+                        <div class="pri">
+                            <span class="r">8.0折</span>
+                            <span class="n">￥6527</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="last">
+                    <a href="#" class="pic" title="【国庆】迪拜-阿布扎比4晚6日游">
+                        <img src="../img/dibai.jpg" alt=""/>
+                        <span class="tag">阿拉伯联合酋长国</span>
+                    </a>
+                    <a href="#" class="info" title="【国庆】迪拜-阿布扎比4晚6日游">
+                        <div class="time">
+                            <p class="p1">距离抢购结束还有</p>
+                            <p class="p2 Itime">
+                                <span>8天17时54分22秒</span>
+                            </p>
+                        </div>
+                        <div class="iftx">
+                            <p>< 跟团游>【国庆】迪拜-阿布扎比4晚6日游</p>
+                        </div>
+                        <div class="pri">
+                            <span class="r">8.1折</span>
+                            <span class="n">￥7996</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="im-right">
+            <ul class="is-list-b">
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-1.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-2.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-3.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-4.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-1.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-1.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-1.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="普吉岛5晚6或7日自助游">
+                        <img src="../img/s2-1.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                        <span class="tx">2天17时42分2秒</span>
+                    </a>
+                    <a href="#" class="info" title="普吉岛5晚6或7日自助游">
+                        <div class="iftx">< 自助游>普吉岛5晚6或7日自助游</div>
+                        <div class="pri">
+                            <span class="r">7.9折</span>
+                            <span class="n">￥3599</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="s3">
+    <div class="ind-tit">
+        <div class="tit">
+            <i class="ind-icon icon"></i>
+            <a href="#">度假</a>
+        </div>
+        <div class="it-bg"></div>
+    </div>
+    <div class="wrapper">
+        <div class="im-left">
+            <div class="ch-list-wrap">
+                <div class="ch-list-dots">
+                    <a href="#" class="ind-icon arr al"></a>
+                    <div class="dots" id="dots">
+                        <span class="o" data="当季推荐"></span>
+                        <span class="o" data="主题精选"></span>
+                        <span class="o" data="周边好玩"></span>
+                    </div>
+                    <a href="#" class="ind-icon arr ar"></a>
+                </div>
+                <ul class="change-list" id="holiday_left_title">
+                    <li class="fir">当季推荐</li>
+                    <li>主题精选</li>
+                    <li>周边好玩</li>
+                </ul>
+            </div>
+
+            <div class="change-list-cnts" data="当季推荐">
+                <div class="im-lf-pic">
+                    <!--<a href="#"><img src="../img/disini.jpg" alt=""/></a>-->
+                </div>
+                <div class="ih-type-list">
+                    <div class="cell">
+                        <div class="tit">
+                            <i class="icon ind-icon"></i>国庆精选
+                        </div>
+                        <div class="cnts">
+                            <a href="#" class="a">日本</a>
+                            <a href="#" class="a">欧洲</a>
+                            <a href="#" class="a">上海</a>
+                            <a href="#" class="a">苏州</a>
+                            <a href="#" class="a">厦门</a>
+                            <a href="#" class="a">杭州</a>
+                        </div>
+                    </div>
+                    <div class="cell">
+                        <div class="tit">
+                            <i class="icon ind-icon"></i>国内玩乐
+                        </div>
+                        <div class="cnts">
+                            <a href="#" class="a">日本</a>
+                            <a href="#" class="a">欧洲</a>
+                            <a href="#" class="a">上海</a>
+                            <a href="#" class="a">苏州</a>
+                            <a href="#" class="a">厦门</a>
+                            <a href="#" class="a">杭州</a>
+                        </div>
+                    </div>
+                    <div class="cell mb0">
+                        <div class="tit">
+                            <i class="icon ind-icon"></i>摄影徒步
+                        </div>
+                        <div class="cnts">
+                            <a href="#" class="a">日本</a>
+                            <a href="#" class="a">欧洲</a>
+                            <a href="#" class="a">上海</a>
+                            <a href="#" class="a">苏州</a>
+                            <a href="#" class="a">厦门</a>
+                            <a href="#" class="a">杭州</a>
+                        </div>
+                    </div>
+                    <div class="cell mb0">
+                        <div class="tit">
+                            <i class="icon ind-icon"></i>登山休闲
+                        </div>
+                        <div class="cnts">
+                            <a href="#" class="a">日本</a>
+                            <a href="#" class="a">欧洲</a>
+                            <a href="#" class="a">上海</a>
+                            <a href="#" class="a">苏州</a>
+                            <a href="#" class="a">厦门</a>
+                            <a href="#" class="a">杭州</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--<div class="change-list-cnts" data="主题精选"></div>-->
+            <!--<div class="change-list-cnts" data="周边好玩"></div>-->
+        </div>
+
+        <div class="im-right" id="holiday_RContent">
+            <div class="ch-list-wrap">
+                <ul class="change-list" id="holiday_right_title">
+                    <li class="fir">精选路线</li>
+                    <li>欧洲</li>
+                    <li>泰国</li>
+                    <li>云南</li>
+                    <li>厦门</li>
+                    <li>日本</li>
+                    <li>桂林</li>
+                </ul>
+                <a href="#" class="im-pub-more">更多精选路线<em>></em></a>
+            </div>
+
+
+            <ul class="is-list-b first" data="精选路线">
+                <li>
+                <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                    <img src="../img/s3-1.jpg" alt=""/>
+                    <span class="tag">崇左</span>
+                </a>
+                <a href="#" class="info">
+                    <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                        南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                    <div class="pri">
+                        <span class="t">烟台出发</span>
+                        <span class="n">￥1061</span>
+                    </div>
+                </a>
+            </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3.jpg" alt=""/>
+                        <span class="tag">崇左</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="is-list-b" data="欧洲">
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-1.jpg" alt=""/>
+                        <span class="tag">巴黎</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-2.jpg" alt=""/>
+                        <span class="tag">意大利</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-3.jpg" alt=""/>
+                        <span class="tag">德国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-4.jpg" alt=""/>
+                        <span class="tag">威尼斯</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-5.jpg" alt=""/>
+                        <span class="tag">英国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-6.jpg" alt=""/>
+                        <span class="tag">威尼斯</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-7.jpg" alt=""/>
+                        <span class="tag">英国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-2-2.jpg" alt=""/>
+                        <span class="tag">意大利</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游><德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风</div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="is-list-b" data="泰国">
+                <li>
+                <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                    <img src="../img/s3-3-1.jpg" alt=""/>
+                    <span class="tag">泰国</span>
+                </a>
+                <a href="#" class="info">
+                    <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                        南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                    <div class="pri">
+                        <span class="t">烟台出发</span>
+                        <span class="n">￥1061</span>
+                    </div>
+                </a>
+            </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-2.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-3.png" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-4.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-4.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-3.png" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-2.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-3-1.jpg" alt=""/>
+                        <span class="tag">泰国</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="is-list-b" data="云南">
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-1.jpg" alt=""/>
+                        <span class="tag">大理</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-2.jpg" alt=""/>
+                        <span class="tag">丽江</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-3.jpg" alt=""/>
+                        <span class="tag">大理</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-4.jpg" alt=""/>
+                        <span class="tag">昆明</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-4.jpg" alt=""/>
+                        <span class="tag">昆明</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-3.jpg" alt=""/>
+                        <span class="tag">大理</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-2.jpg" alt=""/>
+                        <span class="tag">丽江</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-4-1.jpg" alt=""/>
+                        <span class="tag">大理</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="is-list-b" data="厦门">
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-1.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-2.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-3.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-4.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-4.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-3.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-2.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="pic" title="<德天-明仕-北海-黄果树-西江-荔波双飞10日游>
+                    牛连线，南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风">
+                        <img src="../img/s3-5-1.jpg" alt=""/>
+                        <span class="tag">厦门</span>
+                    </a>
+                    <a href="#" class="info">
+                        <div class="iftx">< 跟团游>德天-明仕-北海-黄果树-西江-荔波双飞10日游>牛连线，
+                            南宁进贵阳出，最忆花千骨，住明仕山庄，多彩贵州风 </div>
+                        <div class="pri">
+                            <span class="t">烟台出发</span>
+                            <span class="n">￥1061</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="is-list-b" data="日本"></ul>
+            <ul class="is-list-b" data="桂林"></ul>
+        </div>
+    </div>
+</section>
+
+<section id="s4">
+    <div class="ind-tit">
+        <div class="tit">
+            <i class="ind-icon icon"></i>
+            <a href="#">酒店</a>
+        </div>
+        <div class="it-bg"></div>
+    </div>
+    <div class="ch-list-wrap" pbflag="酒店区-顶部tab">
+        <ul class="change-list" id="hotel_content">
+            <li class="fir" id="gy">精品公寓</li>
+            <li>古镇客栈</li>
+            <li>最美青旅</li>
+            <li>情侣浪漫</li>
+        </ul>
+        <a href="#" class="im-pub-more">更多主题酒店<em>></em></a>
+    </div>
+
+    <div class="ih-fold-wrap" id="hotePics" data="精品公寓">
+        <ul class="s4Pics">
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>上海</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-1-1.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>成都</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-1-2.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>北京</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-1-3.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>深圳</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-1-4.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>三亚</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-1-5.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>广州</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-1-6.jpg')"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="ih-fold-wrap" data="古镇客栈">
+        <ul class="s4Pics">
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>乌镇</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-2-1.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>丽江</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-2-2.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>凤凰</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-2-3.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>宏村</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-2-4.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>平遥</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-2-5.jpg')"></div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <div class="mask"><h4>同里</h4></div>
+                    <div class="pic" style="background-image: url('../img/s4-2-6.jpg')"></div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="ih-fold-wrap" data="最美青旅"></div>
+    <div class="ih-fold-wrap" data="情侣浪漫"></div>
+
+    <!--入住城市-->
+    <div class="ch-list-wrap" pbflag="酒店区-底部tab">
+        <ul class="change-list">
+            <li class="fir">北京</li>
+            <li>上海</li>
+            <li>三亚</li>
+            <li>厦门</li>
+            <li>广州</li>
+            <li>成都</li>
+            <li>深圳</li>
+        </ul>
+        <a href="#" class="im-pub-more">更多入住城市<em>></em></a>
+    </div>
+
+    <div style="display: block" data="北京">
+        <div class="ih-city-type">
+            <div class="cell">
+                <div class="tit"><i class="icon ind-icon"></i>价格</div>
+                <div class="cnts c2">
+                    <a href="#" class="a">不限</a>
+                    <a href="#" class="a">200元以下</a>
+                    <a href="#" class="a">200-300元</a>
+
+                    <a href="#" class="a">300-500元</a>
+                    <a href="#" class="a">500-800元</a>
+                    <a href="#" class="a">800元以上</a>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="tit"><i class="icon ind-icon"></i>行政区</div>
+                <div class="cnts">
+                    <a href="#" class="a">不限</a>
+                    <a href="#" class="a">东城区</a>
+                    <a href="#" class="a">西城区</a>
+
+                    <a href="#" class="a">海淀区</a>
+                    <a href="#" class="a">朝阳区</a>
+                    <a href="#" class="a">丰台区</a>
+
+                    <a href="#" class="a">昌平区</a>
+                    <a href="#" class="a">顺义区</a>
+                    <a href="#" class="a">石景山区</a>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="tit"><i class="icon ind-icon"></i>商圈</div>
+                <div class="cnts">
+                    <a href="#" class="a">不限</a>
+                    <a href="#" class="a">北京站</a>
+                    <a href="#" class="a">王府井</a>
+
+                    <a href="#" class="a">中关村</a>
+                    <a href="#" class="a">西单</a>
+                    <a href="#" class="a">国贸</a>
+
+                    <a href="#" class="a">三里屯</a>
+                    <a href="#" class="a">北京西站</a>
+                    <a href="#" class="a">后海</a>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="tit"><i class="icon ind-icon"></i>品牌</div>
+                <div class="cnts">
+                    <a href="#" class="a">不限</a>
+                    <a href="#" class="a">锦江之星</a>
+                    <a href="#" class="a">7天</a>
+
+                    <a href="#" class="a">速8</a>
+                    <a href="#" class="a">汉庭</a>
+                    <a href="#" class="a">如家</a>
+
+                    <a href="#" class="a">皇冠假日</a>
+                    <a href="#" class="a">希尔顿</a>
+                    <a href="#" class="a">全季酒店</a>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="tit"><i class="icon ind-icon"></i>类型</div>
+                <div class="cnts">
+                    <a href="#" class="a">不限</a>
+                    <a href="#" class="a">五星豪华</a>
+                    <a href="#" class="a">四星高档</a>
+
+                    <a href="#" class="a">三星</a>
+                    <a href="#" class="a">二星</a>
+                    <a href="#" class="a">经济型</a>
+                    <a href="#" class="a">公寓</a>
+                </div>
+            </div>
+            <div class="cell last">
+                <div class="tit"><i class="icon ind-icon"></i>设施</div>
+                <div class="cnts">
+                    <a href="#" class="a">不限</a>
+                    <a href="#" class="a">宽带WiFi</a>
+                    <a href="#" class="a">停车场</a>
+
+                    <a href="#" class="a">接机服务</a>
+                    <a href="#" class="a">游泳池</a>
+                    <a href="#" class="a">健身房</a>
+
+                    <a href="#" class="a">会议室</a>
+                    <a href="#" class="a">餐厅</a>
+                </div>
+            </div>
+        </div>
+        <ul class="is-list-b in-hotel-list">
+            <li>
+                <a href="#" class="pic"><img src="../img/s4b1-1.jpg" alt=""/></a>
+                <a href="#" class="info">
+                    <div class="iftx">
+                        <p class="tx">北京万程华府国际酒店</p>
+                        <p class="tx">商圈：天安门 王府井地区</p>
+                    </div>
+                    <div class="pri">
+                        <span class="t">三星级</span>
+                        <span class="n">￥225</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="pic"><img src="../img/s4b1-2.jpg" alt=""/></a>
+                <a href="#" class="info">
+                    <div class="iftx">
+                        <p class="tx">汉庭酒店（北京永定路点）</p>
+                        <p class="tx">商圈：公主坟 五棵松 石景</p>
+                    </div>
+                    <div class="pri">
+                        <span class="t">二星级</span>
+                        <span class="n">￥203</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="pic"><img src="../img/s4b1-3.jpg" alt=""/></a>
+                <a href="#" class="info">
+                    <div class="iftx">
+                        <p class="tx">北京保利大厦</p>
+                        <p class="tx">商圈：东直门 工体 雍和宫</p>
+                    </div>
+                    <div class="pri">
+                        <span class="t">四星级</span>
+                        <span class="n">￥220</span>
+                    </div>
+                </a>
+            </li>
+
+            <li>
+                <a href="#" class="pic"><img src="../img/s4b1-4.jpg" alt=""/></a>
+                <a href="#" class="info">
+                    <div class="iftx">
+                        <p class="tx">北京西华京兆饭店</p>
+                        <p class="tx">商圈：前门 崇文门商贸区</p>
+                    </div>
+                    <div class="pri">
+                        <span class="t">三星级</span>
+                        <span class="n">￥218</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="pic"><img src="../img/s4b1-5.jpg" alt=""/></a>
+                <a href="#" class="info">
+                    <div class="iftx">
+                        <p class="tx">7天连锁酒店（北京国贸店）</p>
+                        <p class="tx">商圈：国贸地区</p>
+                    </div>
+                    <div class="pri">
+                        <span class="t">二星级</span>
+                        <span class="n">￥207</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="pic"><img src="../img/s4b1-6.jpg" alt=""/></a>
+                <a href="#" class="info">
+                    <div class="iftx">
+                        <p class="tx">北京望潮苑民俗度假村</p>
+                        <p class="tx">商圈：顺义温泉休闲区</p>
+                    </div>
+                    <div class="pri">
+                        <span class="t">三星级</span>
+                        <span class="n">￥232</span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div style="display: none" data="上海"></div>
+    <div style="display: none" data="三亚"></div>
+    <div style="display: none" data="厦门"></div>
+    <div style="display: none" data="广州"></div>
+    <div style="display: none" data="成都"></div>
+    <div style="display: none" data="深圳"></div>
+
+
+
+</section>
+
+<section id="s5">
+    <div class="inner">
+        <h4 class="tit"><a href="#">合作伙伴</a></h4>
+        <div class="list">
+            <a href="#" class="a" title="途牛"><img src="../img/s5-1.png" alt=""/></a>
+            <a href="#" class="a" title="携程"><img src="../img/s5-2.png" alt=""/></a>
+            <a href="#" class="a" title="去哪儿"><img src="../img/s5-3.png" alt=""/></a>
+            <a href="#" class="a" title="酷讯"><img src="../img/s5-4.png" alt=""/></a>
+
+            <a href="#" class="a" title="艺龙"><img src="../img/s5-5.png" alt=""/></a>
+            <a href="#" class="a" title="TripAdvisor"><img src="../img/s5-6.png" alt=""/></a>
+            <a href="#" class="a" title="铁友"><img src="../img/s5-7.png" alt=""/></a>
+            <a href="#" class="a" title="天巡"><img src="../img/s5-8.png" alt=""/></a>
+            <a href="#" class="a more">更多合作伙伴</a>
+        </div>
+    </div>
+</section>
+
+<footer class="foot">
+    <div class="inner">
+        <div class="list">
+            <a href="#" class="about">关于我们</a>
+            <a href="#">官方微博</a>
+            <a href="#">意见反馈</a>
+            <a href="#">免责声明</a>
+        </div>
+        <p class="copyright">Copyright © 2016 Sogou.com. All Rights Reserved. <a href="#">京ICP证050897号</a></p>
+    </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+body {
+  position: relative;
+  display: block;
+  z-index: 1;
+  color: #333;
+  font: 12px "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", sans-serif;
+}

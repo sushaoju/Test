@@ -1,0 +1,592 @@
+@charset "utf-8";
+
+
+/**************************************************************** 头部 ********************/
+
+.head{
+  width: 100%;
+  min-width: 1180px;
+  height: 114px;
+  position: relative;
+
+  border-bottom: 3px solid #4f8ce4;
+//背景色不用注释
+//  background-color: lightcyan;
+}
+
+.inner{
+  width: 1180px;
+  height: 114px;
+  position: relative;
+
+  margin: 0 auto;
+  z-index: 2;
+//  背景色不用注释
+//  background-color: lavender;
+}
+/************************  周末去哪儿 *********************/
+.advert{
+  position: absolute;
+  right: 0;
+  bottom: 7px;
+
+  //  背景色不用注释
+  //background-color: lavenderblush;
+}
+.advert a{
+  display: block;
+  width: 200px;
+  height: 100px;
+}
+.advert img{
+  display: block;
+  width: 200px;
+  height: 100px;
+}
+/**************************  头部左边 *********************/
+.top_left{
+  width: 980px;
+  height: 107px;
+  position: absolute;
+  left: 0;
+  bottom: 7px;
+  //背景色不用注释
+  //background-color: white;
+}
+
+.n_top{
+  height: 50px;
+  position: relative;
+  padding-top: 14px;
+}
+.n_top .site_logo{
+  height: 50px;
+  position: relative;
+
+  margin-right: 8px;
+  float: left;
+}
+.n_top .site_logo a{
+  display: block;
+}
+.n_top .site_logo img{
+  width: auto;
+  height: 50px;
+  display: block;
+}
+
+
+.n_bottom{
+  position: relative;
+  padding-top: 16px;
+}
+.n_bottom .list{
+  height: 30px;
+  position: relative;
+//  背景色不用注释
+//  background-color: lightgoldenrodyellow;
+}
+.top_left .ce{
+  float: left;
+  margin-left: 14px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.top_left .ce strong{
+  position: relative;
+  float: left;
+  margin-left: 5px;
+  font: 700 16px/30px "\5B8B\4F53";
+}
+.top_left .ce .home strong{
+  color: #e52b4e;
+}
+
+
+.head .icon_pub{
+  background-image: url("../img/pub_icon.png");
+  background-repeat: no-repeat;
+}
+.head .ce .icon{
+  width: 22px;
+  height: 22px;
+  position: relative;
+
+  margin-top: 2px;
+  float: left;
+}
+.head .list .home .icon{
+  background-position: 0 -24px;
+}
+.head .list .plane .icon{
+  background-position: -24px 0;
+}
+.head .list .hotel .icon{
+   background-position: -48px 0;
+}
+.head .list .hotel .icon{
+  background-position: -72px 0;
+}
+.head .list .special .icon{
+  background-position: -96px 0;
+}
+.head .list .ticket .icon{
+  background-position: -120px 0;
+}
+.head .list .train .icon{
+  background-position: -144px 0;
+}
+.head .list .bus .icon{
+   background-position: -168px 0;
+}
+.head .list .guide .icon{
+  background-position: -192px 0;
+}
+
+
+.top_left .ce span{
+  display: block;
+  height: 30px;
+}
+
+
+/*********************************************************  第一部分  **********************/
+#home-banner{
+  width: 100%;
+  min-width: 1180px;
+  height: 420px;
+  position: relative;
+
+  margin-bottom: 30px;
+  overflow: hidden;
+
+  //背景色不用注释
+  background-color: lavender;
+}
+
+
+/*************** 轮播  ***********/
+.clear:after{
+  overflow:hidden;
+  content:"";
+  display:block;
+  clear:both;
+  height:0;
+}
+
+#inner{
+  width: 1000%;
+  height:100%;
+  position:absolute;
+  left:0;
+  top:0;
+}
+#inner img{
+  width: 10%;
+  height:420px;
+  float: left;
+}
+.paganation{
+  width: 100%;
+  position: absolute;
+  bottom:10px;
+  text-align:center;
+  margin-left: 240px;
+
+}
+.paganation span{
+  background: #F2F2F2;
+  color:#4f8ce4;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer
+}
+
+.paganation .selected{
+  background: rgba(97,153,231,.5);
+  color:white;
+}
+.arrow {
+  position: absolute;
+  top: 0;
+  width: 30px;
+  height: 420px;
+  cursor: pointer;
+  line-height: 420px;
+  text-align: center;
+
+}
+.arrow span{
+  display: none;
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  margin-left: 4px;
+  color: #4f8ce4;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+#right{
+  right: 0;
+}
+.arrow:hover{
+  background: rgba(97,153,231,.5);
+}
+.arrow:hover span{
+  display: block;
+}
+
+
+
+
+/*********************  搜索 *******************/
+.home-search{
+  width: 1180px;
+  min-width: 1180px;
+  margin: 0 auto;
+}
+.search-wrap{
+  width: 490px;
+  height: 318px;
+  padding-top: 50px;
+}
+.hs-tab-wrap{
+  width: 490px;
+  height: 318px;
+  position: relative;
+  z-index: 4;
+
+  //  背景色不用注释
+  background-color: lightcyan;
+}
+
+/*
+左侧搜索
+*/
+.hs-tab-nav{
+  width: 80px;
+  height: 318px;
+  float: left;
+  background-color: rgba(79,140,228,.8);
+}
+.hs-tab-nav li{
+  line-height: 53px;
+  text-align: center;
+}
+.hs-tab-nav li:hover{        //选中的背景色也会变，有错！！！！！！！！！！！！！！！！！！！！！
+  background-color: #4F8CE4
+}
+.hs-tab-nav li a{
+  height: 53px;
+  position: relative;
+  display: block;
+
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+.hs-tab-nav .tnCur{
+  background-color: white;
+}
+.hs-tab-nav .tnCur a{
+  color: #4f8ce4;
+}
+
+
+/***********************  右侧tab页 **************/
+.hs-tab-cont{
+  width: 410px;
+  height: 318px;
+  position: relative;
+  float: left;
+
+  font-family: "\5FAE\8F6F\96C5\9ED1",'Arial';
+//  背景色不用注释
+//  background-color: lavender;
+}
+
+.hs-tab-cont .htc-cnt{
+  height: 282px;
+  padding: 0 20px;
+  background-color: white;
+}
+.hs-tab-cont .htc-foot{
+  height: 28px;
+  padding-top: 8px;
+  background-color: #f5f9ff;
+}
+.hs-tab-cont .htc-foot .hc{
+  height: 22px;
+  position: relative;
+
+  float: left;
+  padding-left: 72px;
+
+  color: #4F8CE4;
+  font: 700 14px/22px "\5FAE\8F6F\96C5\9ED1";
+}
+.hs-tab-cont .htc-foot .c1 .icon{
+   background-position: -172px -35px;
+ }
+.hs-tab-cont .htc-foot .c2 .icon{
+  background-position: -193px -35px;
+}
+.hs-tab-cont .htc-foot .icon{
+  width: 20px;
+  height: 22px;
+  position: absolute;
+  left: 44px;
+  top: 0;
+}
+
+
+
+
+
+.sub-hs-tab-nav{
+  height: 32px;
+  position: relative;
+  padding-top: 13px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+.sub-hs-tab-nav li{
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  border-bottom: 2px solid #f4f4f4;
+}
+.sub-hs-tab-nav li a{
+  height: 30px;
+  position: relative;
+  display: block;
+
+  text-align: center;
+  font-size: 14px;
+  color: #78899c;
+  background: #fff;
+}
+.sub-hs-tab-nav li.stnCur{
+  border-bottom: 2px solid #5892e6;
+}
+.shtn-a .a1{
+  width: 106px;
+}
+.shtn-a .a2{
+  width: 156px;
+}
+.shtn-a .a3{
+  width: 108px;
+}
+.sub-hs-tab-nav li.stnCur a{
+  color: #5892e6;
+}
+.sub-hs-tab-nav li .icon{
+  width: 15px;
+  height: 14px;
+  position: absolute;
+  top: 0;
+  right: 6px;
+
+  line-height: 14px;
+  overflow: hidden;
+  background-position: -172px 0;
+}
+
+.flt-way-btn{
+  height: 20px;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+.flt-way-btn .btn{
+  position: relative;
+  float: left;
+
+  padding-left: 18px;
+  margin-right: 22px;
+  cursor: pointer;
+  color: #78899c;
+}
+.flt-way-btn .btn .icon{
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  left: 0;
+  top: 4px;
+
+  overflow: hidden;
+  background-position: -203px 0;
+}
+.flt-way-btn .btn.fwbCur .icon{
+  background-position: -189px 0;
+}
+
+
+.hs-input-form{
+  height: 127px;
+  margin-bottom: 20px;
+}
+.hs-inpt-list{
+  width: 160px;
+  float: left;
+}
+.hs-inpt-list li{
+  width: 160px;
+}
+.hs-inpt-list .hil-a{
+  height: 60px;
+  position: relative;
+  margin-bottom: 7px;
+}
+.hs-inpt-list .tit{
+  height: 28px;
+  display: block;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: left;
+  color: #78899c;
+}
+.hs-inpt-list .input-w{
+  height: 31px;
+  border-top: 1px solid #d9d9d9;
+}
+.hs-inpt-list .input-w .input{
+  height: 30px;
+  position: relative;
+  border: 1px solid #eaeaea;
+  border-bottom: 0 none;
+  background-color: #f4f4f4;
+}
+.hs-inpt-list .input input{
+  width: 110px;
+  height: 20px;
+
+  padding: 0 8px;
+  margin-top: 5px;
+
+  line-height: 20px;
+  color: black;
+  font-size: 14px;
+  font-family: \5FAE\8F6F\96C5\9ED1F;
+  border: 0 none;
+  background-color: transparent;
+
+}
+
+.hs-inpt-list .input .icon{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 7px;
+  top: 7px;
+
+  overflow: hidden;
+  background-position: -218px 0;
+}
+
+.hs-inpt-list .hil-a .changeicon{
+  width: 13px;
+  height: 18px;
+  position: absolute;
+  right: 9px;
+  top: 68px;
+
+  overflow: hidden;
+  cursor: pointer;
+  background-position: -172px -16px;
+}
+
+.hil-next{
+  margin-left: 50px;
+}
+.hs-inpt-list .input_date{
+  cursor: pointer;
+}
+.hs-inpt-list .input_date .inpt{
+  cursor: pointer;
+}
+.hs-inpt-list .input_date .inpt input{
+  cursor: pointer;
+  font-weight: normal;
+  font-family: Arial;
+}
+.hs-inpt-list .input_date .input .icon{
+  background-position: -253px 0;
+}
+.hs-inpt-list .input .day{
+  height: 14px;
+  position: absolute;
+  right: 38px;
+  top: 8px;
+
+  line-height: 14px;
+  overflow: hidden;
+  color: #a8b0b9;
+  cursor: pointer;
+}
+
+
+.hs-search-btn{
+  height: 32px;
+  position: relative;
+}
+.hs-search-btn .tx{
+  width: 195px;
+  height: 32px;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  padding-right: 15px;
+
+  line-height: 32px;
+  text-align: right;
+  color: #fe553f;
+  overflow: hidden;
+  cursor: pointer;
+}
+.hs-search-btn .btn{
+  width: 160px;
+  height: 32px;
+
+  float: right;
+  margin: 0 auto;
+  overflow: hidden;
+  box-shadow: 0px -1px 3px #3f70b6 inset;
+
+  background-color: #4F8CE4;
+  color: white;
+  text-align: center;
+  font: 16px/32px "\5FAE\8F6F\96C5\9ED1";
+  cursor: pointer;
+}
+
+//特价机票 tab页
+.sht-pop-tx{
+  height: 20px;
+  margin-bottom: 7px;
+}
+.sht-pop-tx .shtp-tx{
+  height: 20px;
+  position: relative;
+  display: block;
+  float: left;
+  padding-left: 22px;
+  color: #78899c;
+  line-height: 20px;
+}
+.sht-pop-tx .shtp-tx .icon{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+  top: 2px;
+  overflow: hidden;
+}
+.sht-pop-tx .shtp-tx .i-pencil{
+  background-position: -217px -60px;
+}

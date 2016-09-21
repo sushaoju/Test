@@ -1,0 +1,456 @@
+@charset "utf-8";
+/*********************************************  s2   ************************/
+#s2 {
+  width: 1180px;
+  min-width: 1180px;
+  height: 495px;
+  position: relative;
+  margin: 0 auto 30px;
+}
+.ind-tit {
+  width: 100%;
+  height: 43px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.ind-tit .tit {
+  height: 26px;
+  position: relative;
+  margin-bottom: 7px;
+  padding-left: 38px;
+  font-size: 22px;
+  line-height: 26px;
+}
+.ind-tit .tit .icon {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#s2 .ind-tit .tit .icon {
+  background-position: -43px -60px;
+}
+.ind-icon {
+  background-image: url("../img/index_icon.png");
+  background-repeat: no-repeat;
+}
+#s2 .ind-tit a {
+  color: #e74a68;
+  cursor: pointer;
+}
+.ind-tit .it-bg {
+  height: 10px;
+  overflow: hidden;
+  background-image: url("../img/index_tit_bg.jpg");
+  background-repeat: repeat-x;
+}
+.sel-dep {
+  height: 32px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.sel-dep .btn {
+  width: 109px;
+  height: 30px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 34px 0 17px;
+  border: 1px solid #e74a68;
+  line-height: 30px;
+  font-size: 15px;
+  color: #e74a68;
+  cursor: pointer;
+}
+.sel-dep .n {
+  float: left;
+}
+.sel-dep .t {
+  position: absolute;
+  right: 33px;
+  top: 7px;
+  line-height: 16px;
+}
+.sel-dep .icon {
+  width: 8px;
+  height: 5px;
+  position: absolute;
+  right: 14px;
+  top: 13px;
+  overflow: hidden;
+}
+.sel-dep .icon.i-drop {
+  background-position: -289px -1px;
+}
+.im-pub-more {
+  position: absolute;
+  right: 0;
+  top: 6px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #a8b0b9;
+}
+.im-pub-more em {
+  margin-left: 3px;
+  font-family: \5B8B\4F53;
+  font-weight: 700;
+  font-style: normal;
+}
+#s2 .wrapper {
+  width: 1180px;
+  height: 400px;
+  position: relative;
+}
+#s2 .im-left {
+  width: 380px;
+  height: 400px;
+  float: left;
+}
+.is-list-a li {
+  height: 190px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+}
+.is-list-a .pic {
+  width: 220px;
+  height: 190px;
+  position: relative;
+  display: block;
+  float: left;
+  overflow: hidden;
+}
+.is-list-a .pic img {
+  width: 220px;
+  height: 190px;
+  display: block;
+  border: 0;
+}
+.is-list-a .pic .tag,
+.is-list-a .time,
+.is-list-b .pic .tag {
+  background-image: url("../img/index_special_time_bg.jpg");
+  background-repeat: repeat;
+}
+.is-list-a .pic .tag,
+.is-list-b .pic .tag {
+  height: 20px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  padding: 0 8px;
+  overflow: hidden;
+  color: white;
+  line-height: 20px;
+  font-weight: 700;
+}
+.is-list-a .info {
+  width: 160px;
+  height: 190px;
+  display: block;
+  float: left;
+}
+.is-list-a .time {
+  height: 58px;
+  padding-top: 12px;
+  background-color: #e74a68;
+  color: white;
+}
+.is-list-a .time p {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+.is-list-a .time p.p1 {
+  height: 22px;
+  line-height: 22px;
+  margin-bottom: 7px;
+  letter-spacing: 1.5px;
+}
+.is-list-a .time p.p2 {
+  height: 20px;
+  line-height: 20px;
+}
+.is-list-a .iftx {
+  padding: 0 12px;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+.is-list-a .iftx p {
+  height: 60px;
+  padding-top: 14px;
+  overflow: hidden;
+  line-height: 20px;
+  font-size: 14px;
+  color: #3d4753;
+}
+.is-list-a .pri {
+  height: 20px;
+  padding: 0 12px;
+  color: #fe553f;
+}
+.is-list-a .pri .r {
+  float: right;
+  padding-top: 4px;
+  line-height: 16px;
+  font-size: 14px;
+}
+.is-list-a .pri .n {
+  float: left;
+  font-size: 18px;
+  line-height: 20px;
+}
+.is-list-a li.last {
+  margin-bottom: 0;
+}
+#s2 .im-right {
+  width: 780px;
+  height: 400px;
+  float: left;
+  margin-left: 20px;
+}
+.is-list-b {
+  height: 400px;
+  overflow: hidden;
+  margin-left: -20px;
+}
+.is-list-b li {
+  width: 180px;
+  height: 190px;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.is-list-b .pic {
+  width: 180px;
+  height: 120px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 9px;
+  line-height: 20px;
+}
+.is-list-b .pic img {
+  width: 180px;
+  height: auto;
+  display: block;
+  border: 0;
+}
+#s2 .is-list-b .pic .tx {
+  width: 172px;
+  height: 20px;
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+  overflow: hidden;
+  text-align: center;
+  color: #3d4753;
+  font-weight: 700;
+  background-color: #e6eef2;
+}
+.is-list-b .info {
+  height: 61px;
+  display: block;
+  padding-left: 8px;
+  border-left: 1px solid #d0cfce;
+}
+.is-list-b .info .iftx {
+  height: 40px;
+  margin-bottom: 4px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #3d4753;
+  line-height: 20px;
+}
+.is-list-b .pri {
+  height: 18px;
+  color: #fe553f;
+}
+/*********************************************  s3   ************************/
+#s3 {
+  width: 1180px;
+  min-width: 1180px;
+  height: 493px;
+  position: relative;
+  margin: 0 auto 30px;
+}
+#s3 .ind-tit .tit .icon {
+  background-position: -75px -60px;
+}
+#s3 .ind-tit a {
+  color: #71b7a2;
+  cursor: pointer;
+}
+#s3 .wrapper {
+  width: 1180px;
+  height: 440px;
+  position: relative;
+}
+#s3 .im-left {
+  width: 380px;
+  height: 400px;
+  float: left;
+}
+.ch-list-wrap {
+  height: 30px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.ch-list-dots {
+  height: 16px;
+  float: right;
+  padding-top: 7px;
+}
+.ch-list-dots .dots {
+  height: 6px;
+  float: left;
+  overflow: hidden;
+  padding-top: 5px;
+  display: inline;
+}
+.ch-list-dots .dots .o {
+  width: 6px;
+  height: 6px;
+  float: left;
+  overflow: hidden;
+  margin-left: 6px;
+  background-color: #d7dcda;
+  cursor: pointer;
+}
+.ch-list-dots .dots .o.fir {
+  margin-left: 0;
+}
+.ch-list-dots .arr {
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.ch-list-dots .arr:hover {
+  background-color: #71b7a2;
+}
+.ch-list-dots .arr.al {
+  float: left;
+  margin-right: 6px;
+  background-position: 0 -78px;
+}
+.ch-list-dots .arr.ar {
+  float: right;
+  margin-left: 6px;
+  background-position: -20px -78px;
+}
+.change-list {
+  height: 30px;
+}
+.change-list li {
+  width: 76px;
+  height: 28px;
+  float: left;
+  overflow: hidden;
+  margin-left: 10px;
+  border: 1px solid #71b7a2;
+  line-height: 28px;
+  text-align: center;
+  color: #71b7a2;
+  font-size: 14px;
+  cursor: pointer;
+}
+.change-list li.fir {
+  margin-left: 0;
+}
+.im-lf-pic {
+  height: 190px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-image: url("../img/disini.jpg"), url("../img/qingmai.jpg"), url("../img/haidao.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%,100% 100%,100% 100%;
+  background-position: 0px 0px, -500px -500px, -500px -500px;
+}
+.ih-type-list {
+  height: 190px;
+  margin-left: -20px;
+}
+.ih-type-list .cell {
+  width: 180px;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+.ih-type-list .cell.mb0 {
+  margin-bottom: 0;
+}
+.ih-type-list .tit {
+  height: 16px;
+  position: relative;
+  padding-left: 16px;
+  margin-bottom: 6px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #71b7a2;
+}
+.ih-type-list .tit .icon {
+  width: 11px;
+  height: 15px;
+  position: absolute;
+  left: -5px;
+  top: 2px;
+  background-position: -272px -18px;
+}
+.ih-type-list .cnts {
+  height: 60px;
+  padding-top: 4px;
+  overflow: hidden;
+  border-left: 1px solid #71b7a2;
+}
+.ih-type-list .cnts .a {
+  width: 59px;
+  height: 30px;
+  float: left;
+  overflow: hidden;
+  line-height: 30px;
+  text-align: center;
+  color: #3d4753;
+  transition: color 0.35s ease-out;
+}
+.ih-type-list .cnts .a:hover {
+  color: #71b7a2;
+  transition: color 0.35s ease-out;
+}
+#s3 .im-right {
+  width: 780px;
+  height: 400px;
+  float: left;
+  margin-left: 20px;
+}
+#holiday_right_title li:first-child {
+  background-color: #71b7a2;
+  color: white;
+}
+#s3 .is-list-b {
+  display: none;
+}
+#s3 .is-list-b.first {
+  display: block;
+}
+#s3 .is-list-b li:hover .iftx {
+  color: #71b7a2;
+}
+#s3 .is-list-b li:hover .pic {
+  opacity: 0.5;
+  box-shadow: 2px 2px 0.3px black;
+}
+.is-list-b .pri .t {
+  float: right;
+  padding-top: 2px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #A8B0B9;
+}
+.is-list-b .pri .n {
+  float: left;
+  font-size: 16px;
+  line-height: 18px;
+}
